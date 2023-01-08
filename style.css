@@ -24,9 +24,6 @@ h1 {
     font-size: 53pt;
 }
 
-
-
-
 #banner-text-p {
     font-size: 14pt;
 }
@@ -73,10 +70,11 @@ li {
     margin-top: 10px;
 }
 
-h3 {
+.heading-text-style {
     margin: 0;
     padding: 0;
     font-size: 30pt;
+    font-weight: 1000;
 }
 
 .center-element {
@@ -98,6 +96,75 @@ h3 {
     width: 110px;
     height: 24px;
     padding: 16px 19.086px 16px 19.086px;
+    text-align: center;
+}
+
+#options {
+    height: 300px;
+    width: 1145px;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.option-image {
+    display: flex;
+    justify-content: center;
+}
+
+.option-title {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.option-text {
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgb(48, 47, 47);
+}
+
+/* call now section*/
+#call-now {
+    height: 300px;
+    width: 1140px;
+    margin-top: 125px;
+    background-image: url(images/watch.png);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#grad {
+    background-image: url(images/gradient3.png);
+    height: 270px;
+    width: 1080px;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 600;
+    width: 505px;
+
+}
+
+.right-shift {
     margin-right: 0;
     margin-left: auto;
+}
+
+.left-shift {
+    margin-right: auto;
+    margin-left: 0;
 }
